@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("TAG", "onCreate:第二次修改 " );
+        Log.e("TAG", "onCreate: 第一次修改");
     }
 }
